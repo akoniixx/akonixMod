@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SS ",
+		"SBD",
+		" DD"
+	],
+	"key": {
+		"S": { "tag": "forge:string" },
+		"D": { "tag": "forge:dyes/black" },
+		"B": { "item": "akonixboss:violet_bloom" }
+	},
+	"result": { "item": "akonixboss:wilted_ideals" }
+}

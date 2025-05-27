@@ -1,0 +1,6 @@
+{
+	"type": "minecraft:smelting",
+	"cookingtime": 200,
+	"ingredient": { "item": "akonixboss:rosalyne_head" },
+	"result": "akonixboss:rosalyne_head_cracked"
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "tag": "forge:heads" },
+		{ "item": "akonixboss:phantoplasm" }
+	],
+	"result": { "item": "akonixboss:bellringer_head" }
+}

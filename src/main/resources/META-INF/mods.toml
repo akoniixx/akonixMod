@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+issueTrackerURL="https://github.com/Lykrast/AkonixBoss/issues"
+license="MIT License https://github.com/Lykrast/AkonixBoss/blob/master/LICENSE"
+
+[[mods]]
+modId="akonixboss"
+version="1.0.0.1"
+displayName="Akonix Boss"
+displayURL="https://modrinth.com/mod/akonix-boss"
+credits="JTK22 for the Haunted Bell texture, Monkey Warhol, Guifrog, Kain Vinosec, PinpinNeon for their respective songs (resp. CC BY, CC BY, used under licence, commissionned for this mod)"
+authors="AKONIX"
+description='''
+Adds several bosses to fight, each giving you access to unique goodies, such as weapons, armors or curios. Theses bosses won't come to you on their own though, to call them you need to craft the appropriate summoning item.
+'''
+
+[[dependencies.akonixboss]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.akonixboss]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.akonixboss]]
+modId="curios"
+mandatory=true
+versionRange="[5.0,)"
+ordering="NONE"
+side="BOTH"

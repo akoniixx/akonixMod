@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "tag": "minecraft:music_discs" },
+		{ "item": "akonixboss:fortunes_favor" }
+	],
+	"result": { "item": "akonixboss:music_disc_fortuna" }
+}

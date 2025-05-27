@@ -1,0 +1,19 @@
+{
+	"parent": "akonixboss:main/swampjaw_summon",
+	"display": {
+		"icon": { "item": "akonixboss:mossy_tooth" },
+		"title": { "translate": "advancements.akonixboss.swampjaw_kill.title" },
+		"description": { "translate": "advancements.akonixboss.swampjaw_kill.description" },
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"get_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": { "items": [{ "items": ["akonixboss:mossy_tooth"] }] }
+		}
+	},
+	"requirements": [["get_item"]]
+}

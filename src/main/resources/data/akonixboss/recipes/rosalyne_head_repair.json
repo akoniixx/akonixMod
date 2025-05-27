@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "akonixboss_rosalyne_head",
+	"ingredients": [
+		{ "item": "akonixboss:rosalyne_head_cracked" },
+		{ "item": "minecraft:bone_meal" }
+	],
+	"result": { "item": "akonixboss:rosalyne_head" }
+}

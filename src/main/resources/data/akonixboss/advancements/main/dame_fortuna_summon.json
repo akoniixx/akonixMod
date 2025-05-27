@@ -1,0 +1,19 @@
+{
+	"parent": "akonixboss:main/root",
+	"display": {
+		"icon": { "item": "akonixboss:devils_ante" },
+		"title": { "translate": "advancements.akonixboss.dame_fortuna_summon.title" },
+		"description": { "translate": "advancements.akonixboss.dame_fortuna_summon.description" },
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"get_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": { "items": [{ "items": ["akonixboss:devils_ante"] }] }
+		}
+	},
+	"requirements": [["get_item"]]
+}

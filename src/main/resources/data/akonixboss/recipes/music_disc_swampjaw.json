@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "tag": "minecraft:music_discs" },
+		{ "item": "akonixboss:mossy_tooth" }
+	],
+	"result": { "item": "akonixboss:music_disc_swampjaw" }
+}

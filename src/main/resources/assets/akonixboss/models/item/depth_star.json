@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "akonixboss:item/depth_star"
+	},
+	"overrides": [
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.125 },
+			"model": "akonixboss:item/depth_star_charge_1"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.25 },
+			"model": "akonixboss:item/depth_star_charge_2"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.375 },
+			"model": "akonixboss:item/depth_star_charge_3"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.5 },
+			"model": "akonixboss:item/depth_star_charge_4"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.625 },
+			"model": "akonixboss:item/depth_star_charge_5"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.75 },
+			"model": "akonixboss:item/depth_star_charge_6"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.875 },
+			"model": "akonixboss:item/depth_star_charge_7"
+		},
+		{
+			"predicate": { "akonixboss:charging": 1, "akonixboss:charge": 0.99 },
+			"model": "akonixboss:item/depth_star_charge_8"
+		}
+	]
+}

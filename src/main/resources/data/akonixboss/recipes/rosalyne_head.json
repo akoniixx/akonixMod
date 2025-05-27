@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "akonixboss_rosalyne_head",
+	"ingredients": [
+		{ "tag": "forge:heads" },
+		{ "item": "akonixboss:violet_bloom" }
+	],
+	"result": { "item": "akonixboss:rosalyne_head" }
+}

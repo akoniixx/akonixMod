@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WFW"
+	],
+	"key": {
+		"W": { "item": "minecraft:wheat" },
+		"F": { "item": "akonixboss:fortunes_favor" }
+	},
+	"result": { "item": "akonixboss:velvet_fortune", "count": 8 }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		"GGG",
+		"GPG"
+	],
+	"key": {
+		"G": { "tag": "forge:ingots/gold" },
+		"P": { "item": "akonixboss:phantoplasm" },
+		"S": { "tag": "forge:string" }
+	},
+	"result": { "item": "akonixboss:passages_toll" }
+}

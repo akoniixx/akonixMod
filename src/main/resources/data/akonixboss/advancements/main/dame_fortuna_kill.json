@@ -1,0 +1,19 @@
+{
+	"parent": "akonixboss:main/dame_fortuna_summon",
+	"display": {
+		"icon": { "item": "akonixboss:fortunes_favor" },
+		"title": { "translate": "advancements.akonixboss.dame_fortuna_kill.title" },
+		"description": { "translate": "advancements.akonixboss.dame_fortuna_kill.description" },
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"get_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": { "items": [{ "items": ["akonixboss:fortunes_favor"] }] }
+		}
+	},
+	"requirements": [["get_item"]]
+}

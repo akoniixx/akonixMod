@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "tag": "forge:heads" },
+		{ "item": "akonixboss:mossy_tooth" }
+	],
+	"result": { "item": "akonixboss:swampjaw_head" }
+}
